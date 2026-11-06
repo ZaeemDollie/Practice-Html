@@ -88,6 +88,19 @@ body.cars {
   top: -150px;
 }
 
+h2 {
+  left: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .car1,
+  .car2 {
+    display: block;
+    width: 100%;
+  }
+}
+
 /*.wallpaper1 {
   background: url("background1.jpg") center / cover no-repeat;
   margin: 0;
@@ -115,3 +128,21 @@ body.cars {
 /*<img src="background2.jpg" alt="Background Image" /> */
 
 /* background: url("background2.jpg") center / cover no-repeat; */
+
+/*.car1,
+.car2 {
+  display: inline-block;
+  width: 49%;
+  max-width: 280px;
+  vertical-align: top;
+}
+
+.car1 img,
+.car2 img {
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+*/
