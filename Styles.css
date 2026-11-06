@@ -13,15 +13,19 @@ body {
 }
 
 body.home {
-  background-image: url("background1.jpg");
+  background-image: url("background3.jpg");
 }
 
 body.about {
-  background-image: url("background2.jpg");
+  background-image: url("background4.jpg");
 }
 
 body.contact {
-  background-image: url("background3.jpg");
+  background-image: url("background6.jpg");
+}
+
+body.cars {
+  background-image: url("background2.jpg");
 }
 
 .btn {
@@ -37,9 +41,53 @@ body.contact {
   cursor: pointer;
 }
 
-.container {
+.btn:hover {
+  background-color: black;
+}
+
+.container1 {
   color: white;
 }
+
+.container2 {
+  color: white;
+}
+
+.container3 {
+  color: white;
+}
+
+.container4 {
+  color: white;
+  position: relative;
+  bottom: opx;
+  top: 50px;
+}
+
+.car1 img {
+  border: 3px solid blue;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+
+.car2 img {
+  border: 3px solid blue;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 1000px;
+  top: -150px;
+}
+
 /*.wallpaper1 {
   background: url("background1.jpg") center / cover no-repeat;
   margin: 0;
